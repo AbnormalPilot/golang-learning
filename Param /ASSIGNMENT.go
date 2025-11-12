@@ -10,6 +10,21 @@
 // =========================================================
 
 
+// package main 
+// import "fmt"
+
+// func main(){
+// 	num := 0
+
+// 	if num > 0 {
+// 		fmt.Println("Positive")
+// 	} else if num < 0{
+// 		fmt.Println("Negative")
+// 	} else {
+// 		fmt.Println("Zero")
+// 	}
+// }
+
 
 
 // =========================================================
@@ -19,6 +34,16 @@
 // =========================================================
 
 
+// package main
+// import "fmt"
+// func main() {
+// 	age := 18 
+// 	if age >= 18{
+// 		fmt.Println("Eligible")
+// 	} else{
+// 		fmt.Println("Not Eligible")
+// 	}
+// }
 
 
 // =========================================================
@@ -28,6 +53,18 @@
 
 // =========================================================
 
+
+// package main
+// import "fmt"
+
+// func main(){
+// 	num := 10
+// 	if num % 2 == 0{
+// 		fmt.Println("Even")
+// 	} else{
+// 		fmt.Println("Odd")
+// 	}
+// }
 
 
 
@@ -39,6 +76,18 @@
 // =========================================================
 
 
+// package main
+// import "fmt"
+
+// func main(){
+// 	marks := 80
+// 	if marks >= 30{
+// 		fmt.Println("Pass")
+// 	} else{
+// 		fmt.Println("Fail")
+// 	}
+// }
+
 
 
 // =========================================================
@@ -47,6 +96,17 @@
 
 // =========================================================
 
+
+// package main
+// import "fmt"
+//  func main(){
+// 	year := 2024
+// 	if year % 4 == 0 && year % 100 != 0 || year % 400 == 0{
+// 		fmt.Println("Leap Year")
+// 	} else {
+// 		fmt.Println("Not a leap year")
+// 	}
+//  }
 
 
 
@@ -66,6 +126,21 @@
 // =========================================================
 
 
+// package main
+// import "fmt"
+// func main(){
+// 	marks := 75
+// 	if marks >= 90 {
+// 		fmt.Println("Grade A")
+// 	} else if marks >= 75{
+// 		fmt.Println("Grade B")
+// 	} else if marks >= 60{
+// 		fmt.Println("Grade C")
+// 	} else {
+// 		fmt.Println("Grade D")
+// 	}
+// }
+
 
 
 // =========================================================
@@ -75,6 +150,19 @@
 // =========================================================
 
 
+// package main 
+// import "fmt"
+// func main(){
+// 	a := 9
+// 	b := 56
+
+// 	if a > b {
+// 		fmt.Println(a)
+// 	} else {
+// 		fmt.Println(b)
+// 	}
+// }
+
 
 
 // =========================================================
@@ -83,6 +171,25 @@
 
 // =========================================================
 
+// package main 
+// import "fmt"
+//  func main(){
+// 	alpha := "J"
+// 	switch alpha {
+// 	case "a", "A": 
+// 		fmt.Println("Vowel")
+// 	case "e", "E":
+// 		fmt.Println("Vowel")
+// 	case "i", "I":
+// 		fmt.Println("Vowel")
+// 	case "o", "O":
+// 		fmt.Println("Vowel")
+// 	case "u", "U":
+// 		fmt.Println("Vowel")
+// 	default :
+// 		fmt.Println("Consonant")
+// 	} 
+// }
 
 
 
@@ -93,6 +200,18 @@
 // =========================================================
 
 
+// package main
+// import "fmt"
+// func main(){
+// 	day := "Sunday"
+// 	switch day{
+// 	case "Saturday", "Sunday":
+// 		fmt.Println("Weekend")
+// 	default:
+// 		fmt.Println("Weekday")
+// 	}
+// }
+
 
 
 // =========================================================
@@ -101,6 +220,17 @@
 
 // =========================================================
 
+
+// package main
+// import "fmt"
+// func main(){
+// 	num := 15
+// 	if num % 3 == 0 && num % 5 == 0{
+// 		fmt.Println("Yes")
+// 	} else{
+// 		fmt.Println("No")
+// 	}
+// }
 
 
 
@@ -137,6 +267,20 @@
 // =========================================================
 
 
+// package main
+// import "fmt"
+// func main (){
+// 	username := "Pappu"
+// 	password := "0000"
+// 	if username == "Pappu" && password == "0000"{
+// 		fmt.Println("Login Successful")
+// 	} else if username != "Pappu" {
+// 		fmt.Println("User not found.")
+// 	} else{
+// 		fmt.Println("Invalid Password")
+// 	}
+// }
+
 
 
 // =========================================================
@@ -151,6 +295,21 @@
 
 // =========================================================
 
+
+// package main
+// import "fmt"
+// func main(){ 
+// 	a := 9
+// 	b := 8
+// 	c := 7
+// 	if a == b && b == c && a == c {
+// 		fmt.Println("Equilateral Triangle")
+// 	} else if a == b || b == c || a == c{
+// 		fmt.Println("Isosceles Triangle")
+// 	} else if a != b && b != c && a != c{
+// 		fmt.Println("Scalene Triangle")
+// 	}
+// }
 
 
 
@@ -167,6 +326,22 @@
 
 // =========================================================
 
+
+// package main
+// import "fmt"
+// func main(){
+// 	x := 1
+// 	switch x {
+// 	case 1 : 
+// 	fmt.Println("Start Game")
+// 	case 2 :
+// 	fmt.Println("Load Game")
+// 	case 3 :
+// 	fmt.Println("Exit")
+// 	default:
+// 	fmt.Println("Invalid option")
+// 	}
+// }
 
 
 
@@ -185,6 +360,24 @@
 // =========================================================
 
 
+// package main
+// import "fmt"
+//  func main(){
+// 	temp := -8;
+// 	switch {
+// 	case temp > 30:
+// 	fmt.Println("Hot")
+// 	case temp >= 16 :
+// 	fmt.Println("Warm")
+// 	case temp >= 15:
+// 	fmt.Println("Cold")
+// 	case temp > 0:
+// 	fmt.Println("Cold")
+// 	case temp < 0 :
+// 	fmt.Println("Freezing")	
+// 	}
+//  }
+
 
 
 // =========================================================
@@ -200,6 +393,25 @@
 
 // =========================================================
 
+
+// package main
+// import "fmt"
+// func main(){
+	
+// 	marks := 89
+// 	maths := true
+// 	science := false
+
+// 	if marks > 60 && maths && science{
+// 		fmt.Println("Eligible for admission")
+// 	} else if marks < 60 {
+// 		fmt.Println("Marks criteria not cleared")
+// 	} else if maths == false {
+// 		fmt.Println("Not passed in maths")
+// 	} else {
+// 		fmt.Println("Not passed in science")
+// 	}
+// }
 
 
 
